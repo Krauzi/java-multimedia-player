@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="mPlayer.jnlp">
+  <information>
+    <title>mPlayer</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\jcodec-0.2.3-javadoc.jar" size="4912894" download="eager" />
+    <jar href="lib\jcodec-0.2.3-sources.jar" size="1188474" download="eager" />
+    <jar href="lib\jcodec-0.2.3.jar" size="2035804" download="eager" />
+    <jar href="lib\jcodec-javase-0.2.3.jar" size="14042" download="eager" />
+    <jar href="mPlayer.jar" size="139822" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="mPlayer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mplayer.MPlayer"  name="mPlayer" />
+  <update check="always"/>
+</jnlp>

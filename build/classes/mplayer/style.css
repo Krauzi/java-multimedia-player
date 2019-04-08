@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-11-01, 15:51:55
+    Author     : Dawid Bitner, Marcin Krupa
+*/
+
+.button{
+    -fx-background-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: rgba(170, 170, 112, .5);
+}
+
+#playlist {
+    -fx-background-color: transparent;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+
+.list-cell:even {
+    -fx-background-color: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+#descriptionPanel {
+    -fx-background-color: rgba(75, 75, 74, .5);
+}
+
+#controlBar {
+    -fx-background-color: rgba(97, 97, 95, .5);
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+
+#anchorPane{
+    -fx-background-color: black;
+}
+
+#openFolderButton{
+    -fx-background-image: url("../images/023-eject.png");
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#openFileButton{
+    -fx-background-image: url("../images/005-plus.png");
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#playButton{
+    -fx-background-image: url("../images/003-play-button.png");
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#pauseButton{
+    -fx-background-image: url("../images/004-pause.png");
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#stopButton{
+    -fx-background-image: url("../images/008-stop.png");
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#fsButton{
+    -fx-background-image: url("../images/024-fullscreen.png");
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#shList{
+    -fx-background-image: url("../images/016-list.png");
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
